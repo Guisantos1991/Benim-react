@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+
+@theme {
+  --color-primary: #003169;
+  --color-secondary: #fc8605;
+  --backgroundImage-bannerImage: linear-gradient(to bottom, #0070f3, #0070f3) url('/images/bannerHome.jpg');
+  --font-Inter: 'Inter', sans-serif;
+  --font-Ubuntu: 'Ubuntu', sans-serif;
+  --font-Saira: 'Saira', sans-serif;
+
+}
+
+
+
+
+body {
+  @apply min-h-screen bg-blue-50 text-black antialiased;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+
