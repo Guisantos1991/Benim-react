@@ -11,9 +11,9 @@ export default function Header() {
       <div className="flex w-full h-full bg-gradient-to-b from-transparent to-black items-center flex-col">
         <div className="flex flex-row w-full h-[180px] justify-center items-center mt-2">
           <img
-            src="/logo/logo--top.JPG"
+            src="/logo/logo1.PNG"
             alt="Logo Benim Planejados"
-            className="w-44 h-32 rounded-2xl ml-10 hover:w-48 hover:h-36 hover:rounded-3xl hover:transition-all duration-500"
+            className="w-42 h-26 rounded-2xl ml-10 hover:w-48 hover:h-30 hover:transition-all duration-500"
           />
 
           <ul className="flex flex-row gap-4 ml-auto mr-10 text-xl hover:cursor-pointer h-8 items-center">
@@ -43,7 +43,7 @@ export default function Header() {
 
           <div className=" w-44 h-14 bg-neutral-200/40 rounded-[10px] backdrop-blur-lg flex flex-row items-center justify-center gap-2 hover:bg-neutral-300/40 hover:cursor-pointer hover:transition-all hover:duration-500">
             <div className="text-center justify-start text-white text-xl font-semibold font-Saira leading-loose tracking-tight">
-              Shop Now
+              Orçamento Aqui!
             </div>
           </div>
         </div>
