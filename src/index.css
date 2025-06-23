@@ -14,12 +14,15 @@
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
 
 
 body {
   @apply min-h-screen bg-blue-50 text-black antialiased;
   margin: 0;
-  overflow-x: hidden;
+  scrpoll-behavior: smooth;
 }
 
 

@@ -1,6 +1,6 @@
 export default function MidSection() {
   return (
-    <section className="flex justify-center  w-full h-120 mt-40 p-0 m-0">
+    <section className="flex items-center justify-center w-full h-90 mt-32 p-0 m-0 mb-10">
       <div className="flex flex-row w-[960px] h-80 items-center">
         <div className="flex items ">
           <img

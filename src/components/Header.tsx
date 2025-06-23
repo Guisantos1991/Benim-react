@@ -7,6 +7,7 @@ export default function Header() {
           url('/images/homeImage.jpg')
         `,
       }}
+      id="home"
     >
       <div className="flex w-full h-full bg-gradient-to-b from-transparent to-black items-center flex-col">
         <div className="flex flex-row w-full h-[180px] justify-center items-center mt-2">
@@ -16,18 +17,38 @@ export default function Header() {
             className="w-42 h-26 rounded-2xl ml-10 hover:w-48 hover:h-30 hover:transition-all duration-500"
           />
 
-          <ul className="flex flex-row gap-4 ml-auto mr-10 text-xl hover:cursor-pointer h-8 items-center">
-            <li className="font-Saira font-medium hover:font-bold hover:text-primary hover:border-b-3 hover:border-white">
-              Home
+          <ul className="flex flex-row gap-4 ml-auto mr-10 text-xl h-8 items-center">
+            <li>
+              <a
+                href="#home"
+                className="font-Saira font-medium hover:font-bold hover:text-primary hover:border-b-4 hover:border-white transition-all"
+              >
+                Home
+              </a>
             </li>
-            <li className="font-Saira font-medium hover:font-bold hover:text-primary hover:border-b-3 hover:border-white">
-              Sobre
+            <li>
+              <a
+                href="#sobre"
+                className="font-Saira font-medium hover:font-bold hover:text-primary hover:border-b-4 hover:border-white transition-all"
+              >
+                Sobre
+              </a>
             </li>
-            <li className="font-Saira font-medium hover:font-bold hover:text-primary hover:border-b-3 hover:border-white">
-              Contato
+            <li>
+              <a
+                href="#contato"
+                className="font-Saira font-medium hover:font-bold hover:text-primary hover:border-b-4 hover:border-white transition-all"
+              >
+                Contato
+              </a>
             </li>
-            <li className="font-Saira font-medium hover:font-bold hover:text-primary hover:border-b-3 hover:border-white">
-              Serviços
+            <li>
+              <a
+                href="#servicos"
+                className="font-Saira font-medium hover:font-bold hover:text-primary hover:border-b-4 hover:border-white transition-all"
+              >
+                Serviços
+              </a>
             </li>
           </ul>
         </div>

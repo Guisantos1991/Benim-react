@@ -1,6 +1,8 @@
 import Header from './components/Header'
 import MiddleBar from './components/MiddleBar'
 import MidSection from './components/MidSection'
+import MidService from './components/MidService'
+import Services from './components/services'
 import './index.css'
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <Header />
       <MiddleBar />
       <MidSection />
+      <MidService />
+      <Services />
     </div>
   )
 }
