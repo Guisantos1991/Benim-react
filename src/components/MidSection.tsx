@@ -37,7 +37,7 @@ export default function MidSection() {
                 Qualidade e Acabamento
               </p>
             </div>
-            <p className="font-Saira text-xs w-[38] ml-8">
+            <p className="font-Saira text-xs w-[380px] ml-8">
               Com foco na construção de alta qualidade e acabamento, trabalhamos
               com técnicas e profissionais qualificados para garantir a
               excelência em cada etapa do projeto.
@@ -54,7 +54,7 @@ export default function MidSection() {
                 Materiais e Eficiência{" "}
               </p>
             </div>
-            <p className="font-Saira text-xs w-[38] ml-8">
+            <p className="font-Saira text-xs w-[380px] ml-8">
               Alinhado com a perspectiva de longo prazo, utilizamos materiais de
               qualidade para garantir a durabilidade e a estética do seu
               projeto.
