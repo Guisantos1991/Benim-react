@@ -13,7 +13,7 @@ export default function MidSection() {
         <div className="flex items ">
           <img
             className="w-[440px] h-[290px] rounded-sm"
-            src="/public/images/bannerHome.jpg"
+            src="/images/bannerHome.jpg"
             alt="Imagem do banner"
           />
         </div>
