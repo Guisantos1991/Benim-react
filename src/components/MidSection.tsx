@@ -1,6 +1,14 @@
+import { motion } from "framer-motion";
+
 export default function MidSection() {
   return (
-    <section className="flex items-center justify-center w-full h-90 mt-32 p-0 m-0 mb-10">
+    <motion.section
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+      className="flex items-center justify-center w-full h-90 mt-32 p-0 m-0 mb-10"
+    >
       <div className="flex flex-row w-[960px] h-80 items-center">
         <div className="flex items ">
           <img
@@ -54,6 +62,6 @@ export default function MidSection() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

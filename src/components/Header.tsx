@@ -1,6 +1,12 @@
+import { motion } from "framer-motion";
+
 export default function Header() {
   return (
-    <header
+    <motion.header
+      initial={{ opacity: 0, y: -50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
       className="w-full h-[600px] bg-cover bg-center bg-no-repeat flex flex-col text-white relative"
       style={{
         backgroundImage: `
@@ -28,6 +34,14 @@ export default function Header() {
             </li>
             <li>
               <a
+                href="#servicos"
+                className="font-Saira font-medium hover:font-bold hover:text-primary hover:border-b-4 hover:border-white transition-all"
+              >
+                Serviços
+              </a>
+            </li>
+            <li>
+              <a
                 href="#sobre"
                 className="font-Saira font-medium hover:font-bold hover:text-primary hover:border-b-4 hover:border-white transition-all"
               >
@@ -40,14 +54,6 @@ export default function Header() {
                 className="font-Saira font-medium hover:font-bold hover:text-primary hover:border-b-4 hover:border-white transition-all"
               >
                 Contato
-              </a>
-            </li>
-            <li>
-              <a
-                href="#servicos"
-                className="font-Saira font-medium hover:font-bold hover:text-primary hover:border-b-4 hover:border-white transition-all"
-              >
-                Serviços
               </a>
             </li>
           </ul>
@@ -70,6 +76,6 @@ export default function Header() {
         </div>
       </div>
       <div className="flex "></div>
-    </header>
+    </motion.header>
   );
 }

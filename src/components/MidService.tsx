@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { motion } from "framer-motion";
 
 export default function MidService() {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -12,7 +13,12 @@ export default function MidService() {
   };
 
   return (
-    <div className="flex flex-row w-full max-w-[1280px] mx-auto h-[400px] items-center justify-between px-10 gap-10"
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+      className="flex flex-row w-full max-w-[1280px] mx-auto h-[400px] items-center justify-between px-10 gap-10"
     >
       <div className="flex flex-col justify-center w-1/3 h-full p-4 font-Saira">
         <h2 className="text-3xl font-bold mb-4">Nossos Ambientes</h2>
@@ -55,6 +61,6 @@ export default function MidService() {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

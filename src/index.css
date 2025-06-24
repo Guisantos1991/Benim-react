@@ -6,6 +6,7 @@
 @theme {
   --color-primary: #003169;
   --color-secondary: #fc8605;
+  --color-tertiary: #23262F;
   --backgroundImage-bannerImage: linear-gradient(to bottom, #0070f3, #0070f3) url('/images/bannerHome.jpg');
   --font-Inter: 'Inter', sans-serif;
   --font-Ubuntu: 'Ubuntu', sans-serif;

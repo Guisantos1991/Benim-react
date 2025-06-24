@@ -1,6 +1,14 @@
+import { motion } from "framer-motion";
+
 export default function MiddleBar() {
   return (
-    <div className="flex justify-center items-start w-full h-44 absolute">
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+      className="flex justify-center items-start w-full h-44 absolute"
+    >
       <div className="flex justify-around items-center w-9/12 h-30 bg-primary mt-[-50px] rounded-xl">
         <div className="flex flex-col gap-1 w-36 items-center justify-center">
           <h1 className="text-white text-1xl font-bold text-center font-Saira">
@@ -18,6 +26,6 @@ export default function MiddleBar() {
           </h1>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
