@@ -5,7 +5,7 @@ export default function Header() {
     <motion.header
       initial={{ opacity: 0, y: -50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.5 }}
+      viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="w-full h-[400px] md:h-[600px] bg-cover bg-center bg-no-repeat flex flex-col text-white relative"
       style={{

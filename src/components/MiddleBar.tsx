@@ -5,7 +5,7 @@ export default function MiddleBar() {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="flex justify-center items-start w-full h-32 md:h-44 static md:absolute mt-2.5 md:mt-[-50px]"
     >

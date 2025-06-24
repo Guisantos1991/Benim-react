@@ -8,7 +8,7 @@ export default function Footer() {
     <motion.footer
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="w-full h-full flex flex-col items-center justify-center pt-4 md:pt-0"
       id="contato"

@@ -16,9 +16,9 @@ export default function MidService() {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="flex flex-col md:flex-row w-full max-w-full md:max-w-[1280px] mx-auto h-auto md:h-[400px] items-center justify-between px-2 md:px-10 gap-4 md:gap-10"
+      className="flex flex-col md:flex-row w-full max-w-full md:max-w-[1280px] mx-auto h-auto md:h-[400px] items-center justify-between px-2 md:px-10 gap-4 md:gap-10 mt-28"
     >
       <div className="flex flex-col justify-center w-full md:w-1/3 h-auto md:h-full p-2 md:p-4 font-Saira mb-4 md:mb-0">
         <h2 className="text-2xl md:text-3xl font-bold mb-2 md:mb-4">Nossos Ambientes</h2>

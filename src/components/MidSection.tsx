@@ -5,7 +5,7 @@ export default function MidSection() {
     <motion.section
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="flex flex-col md:flex-row items-center justify-center w-full h-auto md:h-90 mt-10 md:mt-32 p-0 m-0 mb-10"
     >

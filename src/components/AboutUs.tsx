@@ -5,7 +5,7 @@ export default function AboutUs() {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="flex flex-col items-center justify-center w-full h-auto md:h-full mt-10 md:mt-20 mb-6 md:mb-10"
       id="sobre"
@@ -35,7 +35,7 @@ export default function AboutUs() {
       </div>
       <div className="w-full h-auto md:h-80 p-2 md:p-10 flex flex-col-reverse md:flex-row items-center justify-center gap-6 md:gap-10">
         <div
-          className="w-full h-40 md:h-full flex flex-col items-center justify-center bg-center bg-no-repeat bg-contain md:bg-cover rounded-lg mb-4 md:mb-0"
+          className="w-full h-40 md:h-full flex flex-col items-center justify-center bg-center bg-no-repeat bg-contain md:bg-contain rounded-lg mb-4 md:mb-0"
           style={{ backgroundImage: "url('/images/comments.png')" }}
         ></div>
         <div
