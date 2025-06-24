@@ -49,21 +49,36 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <InstaLogo width={24} height={24} fill="white" className="hover:cursor-pointer" />
+                <InstaLogo
+                  width={24}
+                  height={24}
+                  fill="white"
+                  className="hover:cursor-pointer"
+                />
               </a>
               <a
                 href="https://www.facebook.com/benimplanejados/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FacebookLogo width={24} height={24} fill="white" className="hover:cursor-pointer" />
+                <FacebookLogo
+                  width={24}
+                  height={24}
+                  fill="white"
+                  className="hover:cursor-pointer"
+                />
               </a>
               <a
                 href="https://wa.me/5511999999999"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <WhatsappLogo width={24} height={24} fill="white" className="hover:cursor-pointer" />
+                <WhatsappLogo
+                  width={24}
+                  height={24}
+                  fill="white"
+                  className="hover:cursor-pointer"
+                />
               </a>
             </div>
           </div>
@@ -103,15 +118,22 @@ export default function Footer() {
               </li>
             </ul>
             <div className="flex flex-col items-center justify-center gap-4 w-full">
-                <div className="flex flex-col items-center justify-center gap-4">
-              <p className="text-sm text-white font-Saira">Avenida Sacramento, 100 - Uberlãndia, Minas Gerais.</p>
-              <div className="flex flex-row items-center justify-center gap-4 w-full">
-                <p className="text-sm text-white font-Saira">(34) 99999-9999</p>
-                <p className="text-sm text-white font-Saira">contato@benimplanejados.com.br</p>
-            </div><p className="text-xs text-white font-Saira">
-                &copy; 2025 Benim Planejados. Todos os direitos reservados.
-              </p>
-            </div>
+              <div className="flex flex-col items-center justify-center gap-4">
+                <p className="text-sm text-white font-Saira">
+                  Avenida Sacramento, 100 - Uberlãndia, Minas Gerais.
+                </p>
+                <div className="flex flex-row items-center justify-center gap-4 w-full">
+                  <p className="text-sm text-white font-Saira">
+                    (34) 99999-9999
+                  </p>
+                  <p className="text-sm text-white font-Saira">
+                    contato@benimplanejados.com.br
+                  </p>
+                </div>
+                <p className="text-xs text-white font-Saira">
+                  &copy; 2025 Benim Planejados. Todos os direitos reservados.
+                </p>
+              </div>
             </div>
           </div>
         </div>

@@ -38,9 +38,7 @@ export default function AboutUs() {
           className="w-full h-full flex flex-col items-center justify-center bg-center bg-no-repeat bg-contain rounded-lg"
           style={{ backgroundImage: "url('/images/comments.png')" }}
         ></div>
-        <div
-          className="w-full h-full flex flex-col items-center justify-center gap-8"
-        >
+        <div className="w-full h-full flex flex-col items-start justify-center gap-8">
           <h1 className="text-4xl font-bold text-start font-Saira">
             O que nossos clientes dizem
           </h1>

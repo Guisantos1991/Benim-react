@@ -15,11 +15,19 @@ export default function Services() {
       id="servicos"
     >
       <div className="mb-10 flex justify-center items-center flex-col gap-4">
-        <h1 className="text-4xl font-bold text-center font-Saira">Nossos Serviços</h1>
-        <p className="font-Saira text-sm">Confira aqui, tudo que podemos oferecer com a melhor qualidade e com todo carinho da nossa equipe</p>
+        <h1 className="text-4xl font-bold text-center font-Saira">
+          Nossos Serviços
+        </h1>
+        <p className="font-Saira text-sm">
+          Confira aqui, tudo que podemos oferecer com a melhor qualidade e com
+          todo carinho da nossa equipe
+        </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 p-6" id="servicesArea">
+      <div
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 p-6"
+        id="servicesArea"
+      >
         {ServicesData.map((service) => (
           <div
             key={service.id}
