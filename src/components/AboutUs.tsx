@@ -35,7 +35,7 @@ export default function AboutUs() {
       </div>
       <div className="w-full h-80 p-10 flex flex-row items-center justify-center gap-10">
         <div
-          className="w-full h-full flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover rounded-lg"
+          className="w-full h-full flex flex-col items-center justify-center bg-center bg-no-repeat bg-contain rounded-lg"
           style={{ backgroundImage: "url('/images/comments.png')" }}
         ></div>
         <div
